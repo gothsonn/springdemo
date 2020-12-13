@@ -7,8 +7,8 @@ To run the application run the following commands:
 
 * mvn clean install
 * ./mvnw spring-boot:build-image
-* docker build . --tag <name-application>
-* docker run -it -p8080:8080 <name-application>:latest
+* docker build . --tag name-application
+* docker run -it -p8080:8080 name-application:latest
 * go url http://localhost:8080/docker/api/hello
 ### Guides
 
